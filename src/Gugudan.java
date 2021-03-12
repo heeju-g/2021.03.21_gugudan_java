@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Gugudan {
 	
-	public static void main(String[] args) {
 	//ctrl+alt 방향키 누르면 라인복사 가능
 
 	/* 1. Scanner만 사용해서 그냥 구현해보기
@@ -36,13 +35,8 @@ public class Gugudan {
 		}
 		
 	*/
-	//3. 배열사용해서 메소드(계산,출력) 만들고 main에서 호출
-		System.out.println("몇 단 : ");
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		int[] result = calculate(num);
-		print(result);
-	}
+	//3. 배열사용해서 메소드(계산,출력) 만들고, GugudanMain 클래스를 만들어 main에서 메소드들 호출
+	
 	public static int[] calculate(int times) {
 		int[] result = new int[9];
 		for(int i =0; i < result.length; i++) {
