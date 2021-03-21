@@ -18,7 +18,7 @@ public class Gugudan {
 		System.out.println(number*8);
 		System.out.println(number*9);
 	*/
-	// 2. 조건문,반복문 사용해서 해보기. ->  잘못된 값 입력 시 자동으로 다시 입력값을 받도록 만들 수는 없을까?
+	// 2. 조건문,반복문 사용해서 해보기. 
 	/*	System.out.println("몇 단 : ");
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
